@@ -1,0 +1,46 @@
+.timeline{
+    display: flex;
+    flex-direction: row;
+}
+
+.timeline_Left{
+    flex: 0.7;
+}
+
+.timeline_Right{
+    flex:0.3;
+    
+}
+.timeline__storiesHeader{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.timeline__storiesHeader > span{
+    padding-right: 20px;
+    margin-top: 30px;
+    border-radius: 100%;
+    color:white;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.avtar{
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px 4px  red;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  
+}
+.avtar:hover{
+    transform: scale(1.15);
+}
+
+
+
